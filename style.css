@@ -1,0 +1,25 @@
+.basket {
+    border: #000 1px solid;
+    padding: 20px;
+}
+.basket__button {
+    border: #000 1px solid;
+    color: #f00;
+}
+.basket__button--large {
+    font-size: 24px;
+}
+.basket__button--blue {
+    background: blue;
+}
+.basket__button--orange {
+
+background: orange;
+}
+
+.basket__button--green {
+    background: green;
+}
+.basket__price{
+    font-size: 40px;
+}
