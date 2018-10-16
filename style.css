@@ -1,6 +1,7 @@
 .basket {
     border: #000 1px solid;
     padding: 20px;
+    color: pink;
 }
 .basket__button {
     border: #000 1px solid;
@@ -19,6 +20,7 @@ background: orange;
 
 .basket__button--green {
     background: green;
+    color: black;
 }
 .basket__price{
     font-size: 40px;
