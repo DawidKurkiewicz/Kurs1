@@ -1,0 +1,31 @@
+body{
+    Font-size: 46px;
+}
+.header {
+    background: green;
+}
+.nav{
+    background: pink;
+}
+.main {
+    border: #000 1px solid;
+    float: left;
+    width: 500px;
+    
+}
+.section {
+    background: yellow;
+}
+.article{
+    background: green;
+
+}
+.aside {
+    border: #000 1px solid;
+    float: left;
+    width: 300px;
+}
+
+.footer{
+    clear: both;
+}
