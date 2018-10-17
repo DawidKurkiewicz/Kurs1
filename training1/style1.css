@@ -1,8 +1,8 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-body{
+/*body{
     Font-size: 46px;
 }
 .header {
@@ -48,7 +48,7 @@ img {
 }
 .article-1 {
     height: 400px;
-}
+}*/
 
 [class*="col-"] {
     float: left;
@@ -91,7 +91,24 @@ img {
 .col-12 {
     width: 100%;
 }
+.clear {
+    clear: both;
+}
 .container {
     width: 90%;
+    clear: both;
+    margin: 0 auto;
 }
+@media only screen and (max-width: 500px) {
+body{
+    background: pink;
+}
+.col-8 {
+    width: 100%;
 
+}
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px)  {
+    body{
+        background: lightblue;  }
+    }
