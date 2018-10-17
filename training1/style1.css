@@ -32,4 +32,14 @@ body{
 img {
     max-width: 100%;
     height: auto;
+
 }
+.article-2 {
+    background-image: url("http://cdn-smg.wayfresh.co.uk/playhouse-whitley-bay/fw_20160129101134_520.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+
+
+}
+
