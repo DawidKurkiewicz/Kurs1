@@ -11,7 +11,7 @@ body{
     border: #000 1px solid;
     float: left;
     width: 500px;
-    
+
 }
 .section {
     background: yellow;
@@ -28,4 +28,8 @@ body{
 
 .footer{
     clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
