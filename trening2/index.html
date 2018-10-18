@@ -6,12 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
+
+    <style>
+        * {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 16px; margin: 0; 
+        }
+        main {
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto; 
+        }
+        nav {
+            background: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+
+        }
+        nav a  {
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            display: block;
+            padding: 10px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+
+        @media only screen and (min-width: 768px)   {
+            nav ul {
+                display: flex;
+                justify-content: flex-start;
+                flex-grow: 0;
+
+            }
+            nav li { 
+                flex-grow: 1; 
+                flex-shrink: 1; 
+            }
+
+        }
+
+
+
+
+
+     </style>
 </head>
+
+
+
+
 <body>
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-    </div>
+    
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </main>
 </body>
 </html>
