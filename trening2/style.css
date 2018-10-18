@@ -1,5 +1,9 @@
 .grid-container{
 display: grid;
-grid-row-gap: 50px;
-grid-column-gap: 50px;
+
+}
+.grid-item-1 {
+    grid-area: 1 / 2 / 5 / 6;
+
+
 }
