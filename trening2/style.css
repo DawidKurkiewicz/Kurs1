@@ -1,9 +1,5 @@
 .grid-container{
-display: grid;
-
-}
-.grid-item-1 {
-    grid-area: 1 / 2 / 5 / 6;
-
+    display: grid;
+    grid-template-rows: 80px 200px 20px 40px;
 
 }
